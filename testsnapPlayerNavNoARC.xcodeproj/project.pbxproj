@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30EA102515B7817700CBD9BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30EA102415B7817700CBD9BE /* UIKit.framework */; };
+		30EA102715B7817700CBD9BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30EA102615B7817700CBD9BE /* Foundation.framework */; };
+		30EA102915B7817700CBD9BE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30EA102815B7817700CBD9BE /* CoreGraphics.framework */; };
+		30EA102F15B7817700CBD9BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30EA102D15B7817700CBD9BE /* InfoPlist.strings */; };
+		30EA103115B7817700CBD9BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EA103015B7817700CBD9BE /* main.m */; };
+		30EA103515B7817700CBD9BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EA103415B7817700CBD9BE /* AppDelegate.m */; };
+		30EA103815B7817700CBD9BE /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EA103715B7817700CBD9BE /* MasterViewController.m */; };
+		30EA103B15B7817700CBD9BE /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EA103A15B7817700CBD9BE /* DetailViewController.m */; };
+		30EA103E15B7817700CBD9BE /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30EA103C15B7817700CBD9BE /* MasterViewController.xib */; };
+		30EA104115B7817700CBD9BE /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30EA103F15B7817700CBD9BE /* DetailViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		30EA102015B7817700CBD9BE /* testsnapPlayerNavNoARC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testsnapPlayerNavNoARC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30EA102415B7817700CBD9BE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		30EA102615B7817700CBD9BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		30EA102815B7817700CBD9BE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		30EA102C15B7817700CBD9BE /* testsnapPlayerNavNoARC-Info.plist */ = {isa = PBXFileReference; path = "testsnapPlayerNavNoARC-Info.plist"; sourceTree = "<group>"; };
+		30EA102E15B7817700CBD9BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		30EA103015B7817700CBD9BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		30EA103215B7817700CBD9BE /* testsnapPlayerNavNoARC-Prefix.pch */ = {isa = PBXFileReference; path = "testsnapPlayerNavNoARC-Prefix.pch"; sourceTree = "<group>"; };
+		30EA103315B7817700CBD9BE /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		30EA103415B7817700CBD9BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		30EA103615B7817700CBD9BE /* MasterViewController.h */ = {isa = PBXFileReference; path = MasterViewController.h; sourceTree = "<group>"; };
+		30EA103715B7817700CBD9BE /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		30EA103915B7817700CBD9BE /* DetailViewController.h */ = {isa = PBXFileReference; path = DetailViewController.h; sourceTree = "<group>"; };
+		30EA103A15B7817700CBD9BE /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		30EA103D15B7817700CBD9BE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController.xib; sourceTree = "<group>"; };
+		30EA104015B7817700CBD9BE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30EA101D15B7817700CBD9BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30EA102515B7817700CBD9BE /* UIKit.framework in Frameworks */,
+				30EA102715B7817700CBD9BE /* Foundation.framework in Frameworks */,
+				30EA102915B7817700CBD9BE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30EA101515B7817600CBD9BE = {
+			isa = PBXGroup;
+			children = (
+				30EA102A15B7817700CBD9BE /* testsnapPlayerNavNoARC */,
+				30EA102315B7817700CBD9BE /* Frameworks */,
+				30EA102115B7817700CBD9BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30EA102115B7817700CBD9BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30EA102015B7817700CBD9BE /* testsnapPlayerNavNoARC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30EA102315B7817700CBD9BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30EA102415B7817700CBD9BE /* UIKit.framework */,
+				30EA102615B7817700CBD9BE /* Foundation.framework */,
+				30EA102815B7817700CBD9BE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		30EA102A15B7817700CBD9BE /* testsnapPlayerNavNoARC */ = {
+			isa = PBXGroup;
+			children = (
+				30EA103315B7817700CBD9BE /* AppDelegate.h */,
+				30EA103415B7817700CBD9BE /* AppDelegate.m */,
+				30EA103615B7817700CBD9BE /* MasterViewController.h */,
+				30EA103715B7817700CBD9BE /* MasterViewController.m */,
+				30EA103915B7817700CBD9BE /* DetailViewController.h */,
+				30EA103A15B7817700CBD9BE /* DetailViewController.m */,
+				30EA103C15B7817700CBD9BE /* MasterViewController.xib */,
+				30EA103F15B7817700CBD9BE /* DetailViewController.xib */,
+				30EA102B15B7817700CBD9BE /* Supporting Files */,
+			);
+			path = testsnapPlayerNavNoARC;
+			sourceTree = "<group>";
+		};
+		30EA102B15B7817700CBD9BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30EA102C15B7817700CBD9BE /* testsnapPlayerNavNoARC-Info.plist */,
+				30EA102D15B7817700CBD9BE /* InfoPlist.strings */,
+				30EA103015B7817700CBD9BE /* main.m */,
+				30EA103215B7817700CBD9BE /* testsnapPlayerNavNoARC-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30EA101F15B7817700CBD9BE /* testsnapPlayerNavNoARC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30EA104415B7817700CBD9BE /* Build configuration list for PBXNativeTarget "testsnapPlayerNavNoARC" */;
+			buildPhases = (
+				30EA101C15B7817700CBD9BE /* Sources */,
+				30EA101D15B7817700CBD9BE /* Frameworks */,
+				30EA101E15B7817700CBD9BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testsnapPlayerNavNoARC;
+			productName = testsnapPlayerNavNoARC;
+			productReference = 30EA102015B7817700CBD9BE /* testsnapPlayerNavNoARC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30EA101715B7817600CBD9BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = none;
+			};
+			buildConfigurationList = 30EA101A15B7817600CBD9BE /* Build configuration list for PBXProject "testsnapPlayerNavNoARC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 30EA101515B7817600CBD9BE;
+			productRefGroup = 30EA102115B7817700CBD9BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30EA101F15B7817700CBD9BE /* testsnapPlayerNavNoARC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30EA101E15B7817700CBD9BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30EA102F15B7817700CBD9BE /* InfoPlist.strings in Resources */,
+				30EA103E15B7817700CBD9BE /* MasterViewController.xib in Resources */,
+				30EA104115B7817700CBD9BE /* DetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30EA101C15B7817700CBD9BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30EA103115B7817700CBD9BE /* main.m in Sources */,
+				30EA103515B7817700CBD9BE /* AppDelegate.m in Sources */,
+				30EA103815B7817700CBD9BE /* MasterViewController.m in Sources */,
+				30EA103B15B7817700CBD9BE /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		30EA102D15B7817700CBD9BE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30EA102E15B7817700CBD9BE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		30EA103C15B7817700CBD9BE /* MasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30EA103D15B7817700CBD9BE /* en */,
+			);
+			name = MasterViewController.xib;
+			sourceTree = "<group>";
+		};
+		30EA103F15B7817700CBD9BE /* DetailViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30EA104015B7817700CBD9BE /* en */,
+			);
+			name = DetailViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30EA104215B7817700CBD9BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		30EA104315B7817700CBD9BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30EA104515B7817700CBD9BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testsnapPlayerNavNoARC/testsnapPlayerNavNoARC-Prefix.pch";
+				INFOPLIST_FILE = "testsnapPlayerNavNoARC/testsnapPlayerNavNoARC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		30EA104615B7817700CBD9BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testsnapPlayerNavNoARC/testsnapPlayerNavNoARC-Prefix.pch";
+				INFOPLIST_FILE = "testsnapPlayerNavNoARC/testsnapPlayerNavNoARC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30EA101A15B7817600CBD9BE /* Build configuration list for PBXProject "testsnapPlayerNavNoARC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30EA104215B7817700CBD9BE /* Debug */,
+				30EA104315B7817700CBD9BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30EA104415B7817700CBD9BE /* Build configuration list for PBXNativeTarget "testsnapPlayerNavNoARC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30EA104515B7817700CBD9BE /* Debug */,
+				30EA104615B7817700CBD9BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30EA101715B7817600CBD9BE /* Project object */;
+}
