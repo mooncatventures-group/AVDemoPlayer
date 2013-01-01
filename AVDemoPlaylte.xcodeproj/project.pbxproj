@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		300C41E31638EA41002AFC08 /* FFmpegDecoder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 300C41E21638EA41002AFC08 /* FFmpegDecoder.framework */; };
+		300C41F21638EED2002AFC08 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 300C41F11638EED2002AFC08 /* libz.dylib */; };
+		30A6410916929DF300935CDF /* AdvancedAudioStub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A6410816929DF300935CDF /* AdvancedAudioStub.framework */; };
+		30A6410B16929E0000935CDF /* StreamMorePlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A6410A16929E0000935CDF /* StreamMorePlay.framework */; };
 		30EA102515B7817700CBD9BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30EA102415B7817700CBD9BE /* UIKit.framework */; };
 		30EA102715B7817700CBD9BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30EA102615B7817700CBD9BE /* Foundation.framework */; };
 		30EA102915B7817700CBD9BE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30EA102815B7817700CBD9BE /* CoreGraphics.framework */; };
@@ -17,25 +21,39 @@
 		30EA103B15B7817700CBD9BE /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EA103A15B7817700CBD9BE /* DetailViewController.m */; };
 		30EA103E15B7817700CBD9BE /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30EA103C15B7817700CBD9BE /* MasterViewController.xib */; };
 		30EA104115B7817700CBD9BE /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30EA103F15B7817700CBD9BE /* DetailViewController.xib */; };
+		30EA105315B782EE00CBD9BE /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30EA105215B782EE00CBD9BE /* OpenGLES.framework */; };
+		30EA105515B782F800CBD9BE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30EA105415B782F800CBD9BE /* QuartzCore.framework */; };
+		30EA105715B7830200CBD9BE /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30EA105615B7830200CBD9BE /* CoreAudio.framework */; };
+		30EA105915B7830700CBD9BE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30EA105815B7830700CBD9BE /* AudioToolbox.framework */; };
+		30EA105B15B7831200CBD9BE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30EA105A15B7831200CBD9BE /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		30EA102015B7817700CBD9BE /* testsnapPlayerNavNoARC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testsnapPlayerNavNoARC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		300C41E21638EA41002AFC08 /* FFmpegDecoder.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FFmpegDecoder.framework; path = AVDemoPlay/FFmpegDecoder.framework; sourceTree = "<group>"; };
+		300C41F11638EED2002AFC08 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		30A6410816929DF300935CDF /* AdvancedAudioStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdvancedAudioStub.framework; path = AVDemoPlay/AdvancedAudioStub.framework; sourceTree = "<group>"; };
+		30A6410A16929E0000935CDF /* StreamMorePlay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StreamMorePlay.framework; path = AVDemoPlay/StreamMorePlay.framework; sourceTree = "<group>"; };
+		30EA102015B7817700CBD9BE /* AVDemoPlaylte.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVDemoPlaylte.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30EA102415B7817700CBD9BE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		30EA102615B7817700CBD9BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		30EA102815B7817700CBD9BE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		30EA102C15B7817700CBD9BE /* testsnapPlayerNavNoARC-Info.plist */ = {isa = PBXFileReference; path = "testsnapPlayerNavNoARC-Info.plist"; sourceTree = "<group>"; };
+		30EA102C15B7817700CBD9BE /* AVDemoPlaylte-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AVDemoPlaylte-Info.plist"; sourceTree = "<group>"; };
 		30EA102E15B7817700CBD9BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		30EA103015B7817700CBD9BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		30EA103215B7817700CBD9BE /* testsnapPlayerNavNoARC-Prefix.pch */ = {isa = PBXFileReference; path = "testsnapPlayerNavNoARC-Prefix.pch"; sourceTree = "<group>"; };
-		30EA103315B7817700CBD9BE /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		30EA103215B7817700CBD9BE /* AVDemoPlaylte-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AVDemoPlaylte-Prefix.pch"; sourceTree = "<group>"; };
+		30EA103315B7817700CBD9BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		30EA103415B7817700CBD9BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		30EA103615B7817700CBD9BE /* MasterViewController.h */ = {isa = PBXFileReference; path = MasterViewController.h; sourceTree = "<group>"; };
+		30EA103615B7817700CBD9BE /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		30EA103715B7817700CBD9BE /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		30EA103915B7817700CBD9BE /* DetailViewController.h */ = {isa = PBXFileReference; path = DetailViewController.h; sourceTree = "<group>"; };
+		30EA103915B7817700CBD9BE /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		30EA103A15B7817700CBD9BE /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		30EA103D15B7817700CBD9BE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController.xib; sourceTree = "<group>"; };
 		30EA104015B7817700CBD9BE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController.xib; sourceTree = "<group>"; };
+		30EA105215B782EE00CBD9BE /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		30EA105415B782F800CBD9BE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		30EA105615B7830200CBD9BE /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		30EA105815B7830700CBD9BE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		30EA105A15B7831200CBD9BE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +61,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30A6410B16929E0000935CDF /* StreamMorePlay.framework in Frameworks */,
+				30A6410916929DF300935CDF /* AdvancedAudioStub.framework in Frameworks */,
+				300C41F21638EED2002AFC08 /* libz.dylib in Frameworks */,
+				300C41E31638EA41002AFC08 /* FFmpegDecoder.framework in Frameworks */,
+				30EA105B15B7831200CBD9BE /* AVFoundation.framework in Frameworks */,
+				30EA105915B7830700CBD9BE /* AudioToolbox.framework in Frameworks */,
+				30EA105715B7830200CBD9BE /* CoreAudio.framework in Frameworks */,
+				30EA105515B782F800CBD9BE /* QuartzCore.framework in Frameworks */,
+				30EA105315B782EE00CBD9BE /* OpenGLES.framework in Frameworks */,
 				30EA102515B7817700CBD9BE /* UIKit.framework in Frameworks */,
 				30EA102715B7817700CBD9BE /* Foundation.framework in Frameworks */,
 				30EA102915B7817700CBD9BE /* CoreGraphics.framework in Frameworks */,
@@ -55,7 +82,16 @@
 		30EA101515B7817600CBD9BE = {
 			isa = PBXGroup;
 			children = (
-				30EA102A15B7817700CBD9BE /* testsnapPlayerNavNoARC */,
+				30A6410A16929E0000935CDF /* StreamMorePlay.framework */,
+				30A6410816929DF300935CDF /* AdvancedAudioStub.framework */,
+				300C41F11638EED2002AFC08 /* libz.dylib */,
+				300C41E21638EA41002AFC08 /* FFmpegDecoder.framework */,
+				30EA105A15B7831200CBD9BE /* AVFoundation.framework */,
+				30EA105815B7830700CBD9BE /* AudioToolbox.framework */,
+				30EA105615B7830200CBD9BE /* CoreAudio.framework */,
+				30EA105415B782F800CBD9BE /* QuartzCore.framework */,
+				30EA105215B782EE00CBD9BE /* OpenGLES.framework */,
+				30EA102A15B7817700CBD9BE /* AVDemoPlay */,
 				30EA102315B7817700CBD9BE /* Frameworks */,
 				30EA102115B7817700CBD9BE /* Products */,
 			);
@@ -64,7 +100,7 @@
 		30EA102115B7817700CBD9BE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				30EA102015B7817700CBD9BE /* testsnapPlayerNavNoARC.app */,
+				30EA102015B7817700CBD9BE /* AVDemoPlaylte.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,7 +115,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		30EA102A15B7817700CBD9BE /* testsnapPlayerNavNoARC */ = {
+		30EA102A15B7817700CBD9BE /* AVDemoPlay */ = {
 			isa = PBXGroup;
 			children = (
 				30EA103315B7817700CBD9BE /* AppDelegate.h */,
@@ -92,16 +128,16 @@
 				30EA103F15B7817700CBD9BE /* DetailViewController.xib */,
 				30EA102B15B7817700CBD9BE /* Supporting Files */,
 			);
-			path = testsnapPlayerNavNoARC;
+			path = AVDemoPlay;
 			sourceTree = "<group>";
 		};
 		30EA102B15B7817700CBD9BE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				30EA102C15B7817700CBD9BE /* testsnapPlayerNavNoARC-Info.plist */,
+				30EA102C15B7817700CBD9BE /* AVDemoPlaylte-Info.plist */,
 				30EA102D15B7817700CBD9BE /* InfoPlist.strings */,
 				30EA103015B7817700CBD9BE /* main.m */,
-				30EA103215B7817700CBD9BE /* testsnapPlayerNavNoARC-Prefix.pch */,
+				30EA103215B7817700CBD9BE /* AVDemoPlaylte-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -109,9 +145,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		30EA101F15B7817700CBD9BE /* testsnapPlayerNavNoARC */ = {
+		30EA101F15B7817700CBD9BE /* AVDemoPlaylte */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 30EA104415B7817700CBD9BE /* Build configuration list for PBXNativeTarget "testsnapPlayerNavNoARC" */;
+			buildConfigurationList = 30EA104415B7817700CBD9BE /* Build configuration list for PBXNativeTarget "AVDemoPlaylte" */;
 			buildPhases = (
 				30EA101C15B7817700CBD9BE /* Sources */,
 				30EA101D15B7817700CBD9BE /* Frameworks */,
@@ -121,9 +157,9 @@
 			);
 			dependencies = (
 			);
-			name = testsnapPlayerNavNoARC;
-			productName = testsnapPlayerNavNoARC;
-			productReference = 30EA102015B7817700CBD9BE /* testsnapPlayerNavNoARC.app */;
+			name = AVDemoPlaylte;
+			productName = AVDemoPlay;
+			productReference = 30EA102015B7817700CBD9BE /* AVDemoPlaylte.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -135,7 +171,7 @@
 				LastUpgradeCheck = 0430;
 				ORGANIZATIONNAME = none;
 			};
-			buildConfigurationList = 30EA101A15B7817600CBD9BE /* Build configuration list for PBXProject "testsnapPlayerNavNoARC" */;
+			buildConfigurationList = 30EA101A15B7817600CBD9BE /* Build configuration list for PBXProject "AVDemoPlaylte" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -147,7 +183,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				30EA101F15B7817700CBD9BE /* testsnapPlayerNavNoARC */,
+				30EA101F15B7817700CBD9BE /* AVDemoPlaylte */,
 			);
 		};
 /* End PBXProject section */
@@ -253,10 +289,24 @@
 		30EA104515B7817700CBD9BE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/AVDemoPlay\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "testsnapPlayerNavNoARC/testsnapPlayerNavNoARC-Prefix.pch";
-				INFOPLIST_FILE = "testsnapPlayerNavNoARC/testsnapPlayerNavNoARC-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "AVDemoPlay/AVDemoPlaylte-Prefix.pch";
+				INFOPLIST_FILE = "AVDemoPlay/AVDemoPlaylte-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/AVDemoPlay\"",
+				);
+				PRODUCT_NAME = AVDemoPlaylte;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -264,10 +314,24 @@
 		30EA104615B7817700CBD9BE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/AVDemoPlay\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "testsnapPlayerNavNoARC/testsnapPlayerNavNoARC-Prefix.pch";
-				INFOPLIST_FILE = "testsnapPlayerNavNoARC/testsnapPlayerNavNoARC-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "AVDemoPlay/AVDemoPlaylte-Prefix.pch";
+				INFOPLIST_FILE = "AVDemoPlay/AVDemoPlaylte-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/AVDemoPlay\"",
+				);
+				PRODUCT_NAME = AVDemoPlaylte;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -275,7 +339,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		30EA101A15B7817600CBD9BE /* Build configuration list for PBXProject "testsnapPlayerNavNoARC" */ = {
+		30EA101A15B7817600CBD9BE /* Build configuration list for PBXProject "AVDemoPlaylte" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				30EA104215B7817700CBD9BE /* Debug */,
@@ -284,13 +348,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		30EA104415B7817700CBD9BE /* Build configuration list for PBXNativeTarget "testsnapPlayerNavNoARC" */ = {
+		30EA104415B7817700CBD9BE /* Build configuration list for PBXNativeTarget "AVDemoPlaylte" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				30EA104515B7817700CBD9BE /* Debug */,
 				30EA104615B7817700CBD9BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
